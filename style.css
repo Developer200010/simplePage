@@ -25,6 +25,8 @@
   
   .nav-branding{
     font-size: 2rem;
+    text-decoration: none;
+    color: white;
   }
 
   .navbar ul {
@@ -37,14 +39,14 @@
     margin: 0 15px;
   }
   
-  .navbar a {
+  .navbar .nav-link {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background 0.3s, color 0.3s;
   }
   
-  .navbar a:hover {
+  .navbar .nav-link:hover {
     background: #555;
     color: #ffd700;
     border-radius: 4px;
